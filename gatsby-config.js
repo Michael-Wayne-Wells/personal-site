@@ -18,7 +18,7 @@ module.exports = {
     logoText: "Mikey Wells",
     defaultTheme: "dark",
     postsPerPage: 5,
-    showMenuItems: 2,
+    showMenuItems: 3,
     menuMoreText: "Show more",
     mainMenu: [
       {
@@ -28,6 +28,10 @@ module.exports = {
       {
         title: "Contact",
         path: "/contact",
+      },
+      {
+        title: "Resume",
+        path: "/resume",
       },
     ],
   },

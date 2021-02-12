@@ -3,6 +3,7 @@ title: "About"
 date: "2020-08-16"
 author: "Mikey"
 path: "/about"
+tags: ["about"]
 ---
 
 I am a junior software engineer making and breaking things with code.

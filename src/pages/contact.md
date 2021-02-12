@@ -3,6 +3,7 @@ title: "Contact"
 date: "2018-07-17"
 author: "Hello Robot"
 path: "/contact"
+tags: ["contact"]
 ---
 
 - [email](mailto:me@mikeywells.dev)
