@@ -57,7 +57,6 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         internal.type === "MarkdownRemark" &&
         fileAbsolutePath.indexOf("/posts/") !== -1
     );
-    console.log(posts);
 
     // Create posts index with pagination
     paginate({
@@ -69,10 +68,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
       pathPrefix: "/",
     });
 
-    console.log(posts);
-
     sortedPages.forEach(({ node }, index, arr) => {
-      console.log(index, arr);
       const previous = index === 0 ? null : sortedPages[index - 1].node;
       const next =
         index === sortedPages.length - 1 ? null : sortedPages[index + 1].node;
