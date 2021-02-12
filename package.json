@@ -7,7 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby clean && gatsby develop",
-    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --write .",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
