@@ -1,5 +1,5 @@
 const { paginate } = require('gatsby-awesome-pagination')
-const { forEach, uniq, filter, not, isNil, flatMap } = require('rambdax')
+const { forEach, uniq, filter, not, isNil, chain } = require('rambdax')
 const path = require('path')
 const { toKebabCase } = require('./src/helpers')
 
@@ -41,36 +41,38 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
-
     const {
       allMarkdownRemark: { edges: markdownPages },
       site: { siteMetadata },
     } = result.data
-
+    
     const sortedPages = markdownPages.sort((pageA, pageB) => {
       const typeA = getType(pageA.node)
       const typeB = getType(pageB.node)
-
       return (typeA > typeB) - (typeA < typeB)
     })
-
+    
     const posts = allNodes.filter(
       ({ internal, fileAbsolutePath }) =>
-        internal.type === 'MarkdownRemark' &&
-        fileAbsolutePath.indexOf('/posts/') !== -1,
-    )
+      internal.type === 'MarkdownRemark' &&
+      fileAbsolutePath.indexOf('/posts/') !== -1,
+      )
+      console.log(posts);
+      
+      // Create posts index with pagination
+      paginate({
+        createPage,
+        items: posts,
+        component: indexTemplate,
+        itemsPerPage: siteMetadata.postsPerPage,
+        itemsPerPage: siteMetadata.postsPerPage,
+        pathPrefix: '/',
+      })
+      
+      console.log(posts);
 
-    // Create posts index with pagination
-    paginate({
-      createPage,
-      items: posts,
-      component: indexTemplate,
-      itemsPerPage: siteMetadata.postsPerPage,
-      pathPrefix: '/',
-    })
-
-    // Create each markdown page and post
-    forEach(({ node }, index) => {
+    sortedPages.forEach(({ node }, index, arr) => {
+      console.log(index, arr);
       const previous = index === 0 ? null : sortedPages[index - 1].node
       const next =
         index === sortedPages.length - 1 ? null : sortedPages[index + 1].node
@@ -92,7 +94,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
     // Create tag pages
     const tags = filter(
       tag => not(isNil(tag)),
-      uniq(flatMap(post => post.frontmatter.tags, posts)),
+      uniq(chain(post => post.frontmatter.tags, posts)),
     )
 
     forEach(tag => {
