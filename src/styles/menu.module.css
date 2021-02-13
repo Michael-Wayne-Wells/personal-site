@@ -103,6 +103,9 @@
   padding: 0 5px;
   appearance: none;
   outline: none;
+  :global .dark-theme :local & {
+    color: #ededed;
+  }
 }
 
 .subMenuTrigger {

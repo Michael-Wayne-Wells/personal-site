@@ -1,0 +1,16 @@
+{
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "vue-postcss"
+  ],
+  "spellright.parserByClass": {
+    "vue-postcss": {
+      "parser": "code"
+    }
+  }
+}

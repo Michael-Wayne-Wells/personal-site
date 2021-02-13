@@ -92,8 +92,8 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
       (tag) => not(isNil(tag)),
       uniq(chain((post) => post.frontmatter.tags, posts))
     );
-
-    forEach((tag) => {
+    console.log(tags);
+    tags.forEach((tag) => {
       const postsWithTag = posts.filter(
         (post) =>
           post.frontmatter.tags && post.frontmatter.tags.indexOf(tag) !== -1
@@ -128,7 +128,7 @@ exports.sourceNodes = ({ actions }) => {
     type Frontmatter {
       title: String!
       author: String
-      date: Date! @dateformat
+      date: Date @dateformat
       path: String!
       tags: [String!]
       excerpt: String

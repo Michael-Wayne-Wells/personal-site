@@ -8,7 +8,7 @@ const postCSSMixins = require("postcss-mixins");
 module.exports = {
   siteMetadata: {
     title: `Mikey Wells`,
-    description: `A blog from a awkward developer`,
+    description: `The blog and profile of Mikey Wells`,
     copyrights: "",
     author: `@mikey`,
     logo: {
@@ -114,13 +114,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-hello-friend`,
-        short_name: `hello-friend`,
+        name: `Mikey Wells`,
+        short_name: `Mikey`,
         start_url: `/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
         display: `minimal-ui`,
-        icon: `src/images/hello-icon.png`,
+        icon: `src/images/hello.png`,
       },
     },
   ],

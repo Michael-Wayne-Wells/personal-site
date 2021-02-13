@@ -15,8 +15,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto",
-    "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.54;
@@ -37,6 +35,24 @@ body {
     color: var(--dark-color);
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+th,
+h6,
+a,
+strong {
+  font-family: "JetBrains Mono", monospace;
+}
+
+td,
+p,
+ul,
+li {
+  font-family: "Noto Sans JP", sans-serif;
+}
 
 h1,
 h2,
@@ -50,15 +66,15 @@ h6 {
 }
 
 h1 {
-  font-size: 2.625rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 h4 {
@@ -200,27 +216,25 @@ blockquote {
 table {
   table-layout: fixed;
   border-collapse: collapse;
-  width: 100%;
-  margin: 40px 0;
   border-radius: 5px;
 }
 
 table,
 th,
 td {
-  border: 1px solid var(--light-color);
-  padding: 10px;
-
+  height: min-content;
   .dark-theme & {
     border-color: var(--dark-color);
   }
 }
 
 th {
-  background: var(--light-background-secondary);
-
+  /* background: var(--light-background-secondary); */
+  color: black;
+  font-size: 1.125rem;
   .dark-theme & {
-    background: var(--dark-background-secondary);
+    background: var(--dark-background);
+    color: var(--dark-color);
   }
 }
 
@@ -341,5 +355,89 @@ footer {
         border: none;
       }
     }
+  }
+}
+
+h5 {
+  margin: 0;
+  font-weight: 400;
+}
+h6 {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 400;
+  @media print {
+    font-size: 10pt;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+  @media print {
+    font-size: 10pt;
+  }
+}
+
+table {
+  margin-top: 2em;
+  margin-bottom: 0;
+  border-collapse: collapse;
+  border-spacing: 4px;
+  text-align: left;
+  font-size: 12pt;
+  @media print {
+    margin-top: 1em;
+    font-size: 10pt;
+  }
+}
+th {
+  padding-right: 2em;
+  font-size: 14pt;
+  vertical-align: bottom;
+  @media print {
+    font-size: 11pt;
+  }
+}
+tr {
+  vertical-align: text-top;
+}
+
+td {
+  @media print {
+    font-size: 9pt;
+  }
+}
+
+#content > table > thead > tr > th:nth-child(3) {
+}
+
+h1 {
+  margin-bottom: 0;
+  font-weight: 700;
+  @media print {
+    font-size: 18pt;
+  }
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+  @media print {
+    font-size: 13pt;
+  }
+}
+h4 {
+  margin: 0;
+  @media print {
+    font-size: 11pt;
+  }
+}
+body {
+  @media print {
+    color: black;
   }
 }

@@ -1,17 +1,24 @@
 .header {
-  background: #fafafa;
+  background: #bababa;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   padding: 20px;
 
-  :global .dark-theme :local & {
-    background: #252627;
-  }
-
   a {
     text-decoration: none;
+  }
+  :global .dark-theme :local & {
+    background: #252627;
+    a {
+      color: rgb(88, 200, 200);
+      text-decoration: none;
+    }
+  }
+  @media print {
+    display: none;
   }
 }
 
@@ -37,6 +44,9 @@
 
 .mark {
   margin-right: 5px;
+  :global .dark-theme :local & {
+    color: rgb(250, 230, 90);
+  }
 }
 
 .cursor {

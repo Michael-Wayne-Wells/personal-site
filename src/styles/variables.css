@@ -1,18 +1,20 @@
 :root {
   /* light theme color */
-  --light-background: #fff;
-  --light-background-secondary: #eaeaea;
-  --light-color: #222;
-  --light-color-secondary: #999;
-  --light-border-color: #dcdcdc;
+  --light-background: rgb(237, 237, 237);
+  --light-background-secondary: rgb(199, 199, 199);
+  --light-color: rgb(41, 41, 41);
+  --light-color-secondary: rgb(237, 237, 237);
+  --light-border-color: #292929;
 
   /* dark theme colors */
   --dark-background: #292a2d;
-  --dark-background-secondary: #3b3d42;
+  --dark-background-secondary: #8f8f8f;
   --dark-color: #a9a9b3;
-  --dark-color-secondary: #73747b;
+  --dark-color-secondary: #bfbfbf;
   --dark-border-color: #4a4b50;
-
+  --dark-three: #fe5186;
+  --dark-four: rgb(88, 200, 200);
+  --dark-five: rgb(250, 230, 90);
   /* variables for js, must be the same as these in @custom-media queries */
   --phoneWidth: (max-width: 684px);
   --tabletWidth: (max-width: 900px);

@@ -1,24 +1,19 @@
 ---
-date: "2021-02-12"
-author: "Mikey"
-title: Michael Wells Resume
+title: Michael Wells
 path: "/resume"
-tags: ["resume"]
 ---
 
-# Michael Wells
+##### Portland, Or | 847.744.0679 | [Me@MikeyWells.dev](mailto:me@mikeywells.dev)
 
-##### Portland, Or | 847.744.0679 | Me@MikeyWells.dev
+##### [linkedin.com/in/michael-wayne-wells](https://linkedin.com/in/michael-wayne-wells) | [github.com/Michael-Wayne-Wells](https://github.com/Michael-Wayne-Wells)
 
-##### linkedin.com/in/michael-wayne-wells | github.com/Michael-Wayne-Wells
-
-| Tools & <br>Technology                                                           | Languages &<br> Frameworks                                        | Soft Skills                                                                                                              |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Tools & <br>Technology | Languages &<br> Frameworks | Soft Skills |
+|----|----|----|
 | Kubernetes<br>AWS<br>Docker<br>Prometheus<br>InfluxDB<br>Grafana<br>Gitlab CI/CD | Ruby on Rails<br>Ruby<br>Javascript<br>Vue<br>Node.js<br>Bash<br> | Cultural intelligence<br>Teamwork<br>Versatility<br>Communication<br>Critical thinking<br>Remote Work<br>Self-Motivation |
 
 ## Experience
 
-### Tilig Password Manager - Full-Stack Software Engineer
+#### Tilig Password Manager - Full-Stack Software Engineer
 
 ###### March 2020 - January 2021
 
@@ -27,7 +22,7 @@ tags: ["resume"]
 - Successfully set up and maintained metrics and logging for the web application and cloud-based infrastructure utilizing Prometheus, Grafana, Fluentd, InfluxDB, and Elastic(Elk Stack) which allowed for better security monitoring, alerts for errors or downtime, and resource usage in AWS.
 - Built a custom Gitlab CI/CD runner to allow a monorepo to be separated into separate services with individual pipelines that build, test, perform security scans, and deploy to AWS via EKS. Build times for the backend API were improved by up to 90% and configuration became more accessible to other developers from implementing infrastructure as code.
 
-### Tuft & Needle - Quality Engineering Intern
+#### Tuft & Needle - Quality Engineering Intern
 
 ###### March 2020 - January 2021
 
@@ -35,7 +30,7 @@ tags: ["resume"]
 - Contributed code to companies Cypress based end-to-end tests suite.
 - Worked with engineering team to perform manual and automated testing on new features.
 
-### Aleatory Books - Owner
+#### Aleatory Books - Owner
 
 ###### December 2017 - January 2020
 
@@ -46,7 +41,7 @@ tags: ["resume"]
 
 ## Education
 
-### Epicodus - Full-Stack Development Certificate - Ruby on Rails/React.js
+#### Epicodus - Full-Stack Development Certificate - Ruby on Rails/React.js
 
 ###### October 2019 – May 2020
 

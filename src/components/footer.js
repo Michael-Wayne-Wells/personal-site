@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+import style from "../styles/footer.module.css";
 
 const Footer = ({ copyrights }) => (
-  <footer>
+  <footer className={style.footer}>
     {copyrights ? (
       <div
         dangerouslySetInnerHTML={{

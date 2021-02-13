@@ -1,11 +1,8 @@
 ---
 title: "Contact"
-date: "2018-07-17"
-author: "Hello Robot"
 path: "/contact"
-tags: ["contact"]
 ---
-
+### Find Me Here:
 - [email](mailto:me@mikeywells.dev)
 - [linkedin](https://www.linkedin.com/in/michael-wayne-wells/)
 - [twitter](https://twitter.com/stabby_lambda)
