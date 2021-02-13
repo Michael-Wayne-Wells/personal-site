@@ -13,7 +13,7 @@ const Footer = ({ copyrights }) => (
     ) : (
       <>
         <span className="footerCopyrights">
-          © 2019 ::{" "}
+          © 2021 ::{" "}
           <a href="https://www.github.com/Michael-Wayne-Wells/">Mikey Wells</a>
         </span>
       </>
