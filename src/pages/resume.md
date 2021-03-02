@@ -24,7 +24,7 @@ path: "/resume"
 
 #### Tuft & Needle - Quality Engineering Intern
 
-###### March 2020 - January 2021
+###### March 2020 - May 2020
 
 - Completed security scans and a penetration test of the company’s websites and backend services. Submitted full security report laying out vulnerabilities and solutions.
 - Contributed code to companies Cypress based end-to-end tests suite.
