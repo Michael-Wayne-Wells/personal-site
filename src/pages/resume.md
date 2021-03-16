@@ -1,6 +1,6 @@
 ---
 title: Michael Wells
-path: "/resume"
+path: "/"
 ---
 
 ##### Portland, Or | 847.744.0679 | [Me@MikeyWells.dev](mailto:me@mikeywells.dev)

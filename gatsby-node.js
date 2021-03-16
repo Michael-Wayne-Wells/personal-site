@@ -65,7 +65,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
       component: indexTemplate,
       itemsPerPage: siteMetadata.postsPerPage,
       itemsPerPage: siteMetadata.postsPerPage,
-      pathPrefix: "/",
+      pathPrefix: "/blog",
     });
 
     sortedPages.forEach(({ node }, index, arr) => {
