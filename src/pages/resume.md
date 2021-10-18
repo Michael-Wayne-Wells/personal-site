@@ -11,9 +11,11 @@ path: "/"
 #### Infrastructure Engineering – Software Development – Monitoring, Metrics, and Observability
 Collaborative, enthusiastic DevOps Engineer offers 2 years of experience developing secure and scalable applications using open-source technologies and solving development and security challenges in infrastructure design. Architects and builds applications using cybersecurity principles and experience with application, network, and infrastructure security. Develops and implements automation processes to improve efficiency and proactively detect bugs and issues while streamlining workflows utilizing Kanban and Jira to plan projects and identify opportunities for improvement. Collaborates with cross-functional teams to implement process improvements and achieve project goals and milestones.
 
-#### Key Competencies & Skills
+---
+
+## Key Competencies & Skills:
+JavaScript • Node.js • React • Vue • Bash • Kubernetes • Docker • Amazon Web Services (AWS) • HTML • CSS • Terraform • ServiceNow • Splunk • Catchpoint • Prometheus • Grafana • Elastic Stack • Elasticsearch, Logstash, Kibana (ELK) Stack • InfluxDB • Fluentd • Logz.io • Cypress • Gitlab • Jira • Linux • Ruby • Ruby on Rails
 Continuous Integration and Continuous Delivery (CI/CD) • Infrastructure as Code • Observability as Code • Network Security • Source Code Management • Configuration Management • Networking • Software Development • IT service management • Application development • Software Testing • Test Driven Development • Kanban Methodology • Project Planning • Roadmapping • Documentation • Process Improvement • Team Work • Cross-Functional Collaboration • Event Management • Fundraising • Marketing • Social Media Management • Content Management • Copywriting • Google Analytics • Wix 
-JavaScript • Node.js • React • Vue • Bash • Kubernetes • Docker • Amazon Web Services (AWS) • HTML • CSS • Terraform • ServiceNow • Splunk • Catchpoint • Prometheus • Grafana • Elastic Stack • Elasticsearch, Logstash, Kibana (ELK) Stack • InfluxDB • Fluentd • Logz.io • Cypress • Gitlab • Jira • Linux • Ruby • Ruby on Rails 
 
 ---
 
