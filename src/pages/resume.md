@@ -9,12 +9,34 @@ path: "/"
 
 ---
 #### Infrastructure Engineering – Software Development – Monitoring, Metrics, and Observability
-Collaborative, enthusiastic DevOps Engineer offers 1 year of experience developing secure and scalable applications using open-source technologies and solving development and security challenges in infrastructure design. Architects and builds applications using cybersecurity principles and experience with application, network, and infrastructure security. Develops and implements automation processes to improve efficiency and proactively detect bugs and issues while streamlining workflows utilizing Kanban and Jira to plan projects and identify opportunities for improvement. Collaborates with cross-functional teams to implement process improvements and achieve project goals and milestones. 
+Collaborative, enthusiastic DevOps Engineer offers 2 years of experience developing secure and scalable applications using open-source technologies and solving development and security challenges in infrastructure design. Architects and builds applications using cybersecurity principles and experience with application, network, and infrastructure security. Develops and implements automation processes to improve efficiency and proactively detect bugs and issues while streamlining workflows utilizing Kanban and Jira to plan projects and identify opportunities for improvement. Collaborates with cross-functional teams to implement process improvements and achieve project goals and milestones.
 
+#### Key Competencies & Skills
+Continuous Integration and Continuous Delivery (CI/CD) • Infrastructure as Code • Observability as Code • Network Security • Source Code Management • Configuration Management • Networking • Software Development • IT service management • Application development • Software Testing • Test Driven Development • Kanban Methodology • Project Planning • Roadmapping • Documentation • Process Improvement • Team Work • Cross-Functional Collaboration • Event Management • Fundraising • Marketing • Social Media Management • Content Management • Copywriting • Google Analytics • Wix 
+JavaScript • Node.js • React • Vue • Bash • Kubernetes • Docker • Amazon Web Services (AWS) • HTML • CSS • Terraform • ServiceNow • Splunk • Catchpoint • Prometheus • Grafana • Elastic Stack • Elasticsearch, Logstash, Kibana (ELK) Stack • InfluxDB • Fluentd • Logz.io • Cypress • Gitlab • Jira • Linux • Ruby • Ruby on Rails 
 
 ---
 
 ## Experience:
+
+### **Nike (contracted through Randstad)**, Portland, OR	03/21 – Present
+##### **Site Reliability Engineer:** Supported frontend engineering teams by enhancing observability, security, performance, and availability
+
+#### Increased monitoring and observability which improved mean time to detect (MTTD) and mean time to respond (MTTR) 
+- Implemented Distributed Tracing on services while also writing documentation and teaching the engineering team how to utilize it.
+- Instrumented and contributed to Observability as Code using Terraform, SignalFx, and Catchpoint
+- Built a synthetic test suite to proactively find issues in services before they are reported by users
+- Built custom Splunk dashboards and queries to identify the root cause of issues and provide new tools for engineering teams to monitor their services. 
+
+#### Evolved the Embedded SRE model with engineering teams which improved communication, team building, and resilience.
+- Worked with Project Manager of individual teams to incorporate SRE into their sprints, SCRUM rituals, and planning. 
+- Routinely presented and reported metrics and analytics to engineering teams to drive reliability key performance indicators.
+- Lead meetings to create better understanding around SRE while actively listening to engineering teams to prioritize and create new projects that will improve upon reliability. 
+
+#### Actively worked to improve the community and develop innovation within the SRE and Engineering communities
+- Created and led an internal Meetup and community of practice around SRE to bring together members of the community to share ideas, build relationships, problem solve, and innovate.
+- Contributed to the Nike Engineering Forum and worked with a team of volunteers to ensure the success of the speakers and the event.
+
 
 ### **Tilig Password Manager**, San Francisco, CA (Remote) - 03/20–01/21
 ##### **Software Engineer:** Developed and maintained security applications and features on cloud-based infrastructure.
