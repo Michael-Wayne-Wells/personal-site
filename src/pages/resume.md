@@ -21,8 +21,8 @@ Continuous Integration and Continuous Delivery (CI/CD) • Infrastructure as Cod
 
 ## Experience:
 
-### **Nike (contracted through Randstad)**, Portland, OR	03/21 – Present
-##### **Site Reliability Engineer:** Supported frontend engineering teams by enhancing observability, security, performance, and availability
+### **Nike**, Portland, OR	03/21 – Present
+##### **Site Reliability Engineer:** Supports frontend engineering teams by enhancing observability, security, performance, and availability
 
 #### Increased monitoring and observability which improved mean time to detect (MTTD) and mean time to respond (MTTR) 
 - Implemented Distributed Tracing on services while also writing documentation and teaching the engineering team how to utilize it.
