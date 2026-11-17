@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mikey Wells :: Site Reliability Engineer</title>
+    <meta
+      name="description"
+      content="Mikey Wells, Site Reliability Engineer at Nike. Observability, SLOs and error budgets."
+    />
+    <meta property="og:title" content="Mikey Wells :: Site Reliability Engineer" />
+    <meta
+      property="og:description"
+      content="SRE at Nike. Observability, SLOs and error budgets."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mikeywells.dev" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="progress" aria-hidden="true"></div>
+
+    <header class="top">
+      <a class="logo" href="#top">
+        <span class="mark">&gt;</span> Mikey Wells<span class="cursor"></span>
+      </a>
+      <nav aria-label="Sections">
+        <a href="#focus">focus</a>
+        <a href="#experience">experience</a>
+        <a href="#skills">skills</a>
+        <a href="#trace">trace</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <label class="theme" title="Toggle light theme">
+        <input type="checkbox" id="light" class="sr" aria-label="Light theme" />
+        <span aria-hidden="true">◐</span>
+      </label>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div>
+          <p class="pill"><i></i> all systems operational</p>
+          <h1>Mikey Wells</h1>
+          <p class="tagline">
+            Site Reliability Engineering <b>·</b> Observability <b>·</b> SLOs
+            &amp; Error Budgets
+          </p>
+          <p class="contactline">
+            Portland, OR | <a href="tel:+15038395294">503-839-5294</a> |
+            <a href="mailto:me@mikeywells.dev">me@mikeywells.dev</a><br />
+            <a href="https://linkedin.com/in/michael-wayne-wells"
+              >linkedin.com/in/michael-wayne-wells</a
+            >
+            |
+            <a href="https://github.com/Michael-Wayne-Wells"
+              >github.com/Michael-Wayne-Wells</a
+            >
+          </p>
+          <p class="cta">
+            <a class="btn primary" href="mailto:me@mikeywells.dev">Say hello</a>
+            <button class="btn" type="button" onclick="print()">
+              Print resume
+            </button>
+          </p>
+        </div>
+
+        <div class="term" aria-hidden="true">
+          <div class="termbar"><i></i><i></i><i></i><span>mikey@pdx: ~</span></div>
+          <pre><span class="ps">$</span> <span class="type">whoami</span>
+<span class="out" style="--d: 1.1s">mikey: SRE II @ Nike, Portland OR</span>
+<span class="out" style="--d: 1.6s"><span class="ps">$</span> uptime</span>
+<span class="out" style="--d: 2s">up since Mar 2021 @ nike.com front-end</span>
+<span class="out" style="--d: 2.5s"><span class="ps">$</span> history | head -3</span>
+<span class="out" style="--d: 2.9s">  1  cook --years 10 --incl noma
+  2  brew --years 5 --specialty coffee
+  3  ship --slos --error-budgets</span>
+<span class="out" style="--d: 3.4s"><span class="ps">$</span> <span class="cursor"></span></span></pre>
+        </div>
+      </section>
+
+      <section id="about" class="reveal">
+        <h2><span aria-hidden="true">#</span> Summary</h2>
+        <p class="lead">
+          SRE at Nike since 2021. I set up and ran an org-wide SLO adoption
+          effort across engineering and started an XLO (Experience Level
+          Objectives) program for front-end experience services. I support
+          Nike.com's front-end experiences and the platform team that builds
+          their shared tooling. Before tech I cooked for ten years (including
+          Noma) and spent five more in specialty coffee.
+        </p>
+      </section>
+
+      <section id="focus" class="reveal">
+        <h2><span aria-hidden="true">#</span> Focus</h2>
+        <ul class="tiles">
+          <li class="tile">
+            <strong>SLOs &amp; error budgets</strong>
+            <span>an org-wide adoption program: standards, trainings, office hours</span>
+          </li>
+          <li class="tile">
+            <strong>XLOs</strong>
+            <span>experience level objectives for front-end services</span>
+          </li>
+          <li class="tile">
+            <strong>Alert hygiene</strong>
+            <span>audited, consolidated, and moved to observability as code</span>
+          </li>
+          <li class="tile">
+            <strong>Failure detection</strong>
+            <span>catching customer-facing failures that health checks miss</span>
+          </li>
+          <li class="tile">
+            <strong>Event readiness</strong>
+            <span>load testing and capacity baselines ahead of high-traffic events</span>
+          </li>
+          <li class="tile">
+            <strong>Tooling</strong>
+            <span>Python and AI-assisted tools for other SRE teams</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience" class="reveal">
+        <h2><span aria-hidden="true">#</span> Experience</h2>
+
+        <article class="job">
+          <header>
+            <h3>Nike</h3>
+            <p>Portland, OR | Mar 2021 – Present</p>
+          </header>
+
+          <details open>
+            <summary>
+              <b>Site Reliability Engineer II</b> <time>May 2023 – Present</time>
+            </summary>
+            <ul>
+              <li>SRE for Nike.com's front-end experiences and the front-end platform team. Supported major launches and high-traffic events.</li>
+              <li>Set up and ran an org-wide SLO adoption effort. Wrote the documentation and org standards, built the trainings and taught them, and held weekly office hours. Trained other SREs to teach SLOs to their own teams. Adopted by teams across engineering, with leadership support.</li>
+              <li>Started an XLO program for front-end experience services, and expanded SLOs and XLOs across multiple observability platforms with SLOs instrumented as code.</li>
+              <li>Audited and consolidated alerting, substantially reducing alert noise. Moved alerts to observability as code and documented them.</li>
+              <li>Built detection for customer-facing failures that standard health checks miss, significantly reducing time to detect.</li>
+              <li>Migrated synthetic monitoring between observability platforms and set up new alerts and dashboards for it.</li>
+              <li>Built Python and AI-assisted tooling for other SRE teams to use.</li>
+              <li>Performed load testing on front-end services to prepare for high-traffic events, set capacity baselines, and filed scaling and right-sizing fixes.</li>
+              <li>Mentored a new SRE, and set up on-call coverage sharing with EMEA SREs.</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>
+              <b>Site Reliability Engineer I</b> <time>Nov 2021 – May 2023</time>
+            </summary>
+            <ul>
+              <li>Started SLOs and error budgets on my own teams first and presented them to the SRE org, which is where the org-wide program came from.</li>
+              <li>Became the CDN caching and networking SME for the teams I support, and helped start work across teams to improve sitewide caching.</li>
+              <li>Supported disaster recovery exercises and major launches with dashboards, alerting, and live troubleshooting, and implemented fixes during incidents.</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>
+              <b>Site Reliability Engineer</b> <time>Mar 2021 – Nov 2021</time>
+            </summary>
+            <ul>
+              <li>Moved SRE support for my teams to an embedded model. Joined their sprints and planning, and put SRE tickets in their backlogs so the work was visible.</li>
+              <li>Organized joint meetings for teams with similar platform rollouts and put together a shared rollout template for them.</li>
+              <li>Built observability-as-code tooling and set up distributed tracing.</li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="job">
+          <header>
+            <h3>Tilig</h3>
+            <p>Mar 2020 – Jan 2021</p>
+          </header>
+          <details>
+            <summary><b>Software &amp; Infrastructure Engineer</b></summary>
+            <ul>
+              <li>
+                Cut build times by 90% for the backend API and improved security
+                scanning by developing a new CI/CD pipeline
+              </li>
+              <li>
+                Built an EC2 instance on a VPC to host a custom GitLab runner
+                and run parallel builds on rulesets
+              </li>
+              <li>
+                Set up Prometheus to scrape metrics from services in the
+                Kubernetes cluster and built Grafana dashboards; configured API
+                logging with Fluentd, Elastic Stack, and Logz.io
+              </li>
+              <li>
+                Replaced the Node.js backend with Ruby on Rails incrementally,
+                with zero downtime
+              </li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="job">
+          <header>
+            <h3>Tuft &amp; Needle</h3>
+            <p>Mar 2020 – May 2020</p>
+          </header>
+          <details>
+            <summary><b>Quality Engineering Intern</b></summary>
+            <ul>
+              <li>
+                Built a scanner in Ruby that checked dependencies listed in a
+                vulnerability report, then ran pen tests on the APIs and web app
+              </li>
+              <li>Built end-to-end Cypress tests covering 3 brand websites</li>
+            </ul>
+          </details>
+        </article>
+      </section>
+
+      <section id="skills" class="reveal">
+        <h2><span aria-hidden="true">#</span> Skills</h2>
+        <div class="skills">
+          <fieldset>
+            <legend class="sr">Highlight a skill group</legend>
+            <label><input class="sr" type="radio" name="f" id="f-all" checked />all</label>
+            <label class="obs"><input class="sr" type="radio" name="f" id="f-obs" />observability</label>
+            <label class="rel"><input class="sr" type="radio" name="f" id="f-rel" />reliability</label>
+            <label class="inf"><input class="sr" type="radio" name="f" id="f-inf" />infrastructure</label>
+            <label class="dev"><input class="sr" type="radio" name="f" id="f-dev" />code</label>
+          </fieldset>
+          <ul>
+            <li class="obs">New Relic</li>
+            <li class="obs">Splunk</li>
+            <li class="obs">SignalFx</li>
+            <li class="obs">Catchpoint</li>
+            <li class="obs">CloudWatch</li>
+            <li class="obs">Prometheus</li>
+            <li class="obs">Grafana</li>
+            <li class="obs">ELK</li>
+            <li class="obs">Distributed tracing</li>
+            <li class="rel">SLOs, XLOs &amp; error budgets</li>
+            <li class="rel">Burn-rate alerting</li>
+            <li class="rel">Incident response</li>
+            <li class="rel">Load testing (k6, Gatling)</li>
+            <li class="rel">Capacity planning</li>
+            <li class="rel">Gremlin</li>
+            <li class="rel">Disaster recovery exercises</li>
+            <li class="inf">AWS (ECS Fargate, EC2, ALB)</li>
+            <li class="inf">Akamai</li>
+            <li class="inf">Terraform</li>
+            <li class="inf">Docker</li>
+            <li class="inf">Kubernetes</li>
+            <li class="inf">Jenkins</li>
+            <li class="inf">GitLab CI</li>
+            <li class="rel">PagerDuty</li>
+            <li class="rel">ServiceNow</li>
+            <li class="dev">Python</li>
+            <li class="dev">JavaScript/Node.js</li>
+            <li class="dev">React</li>
+            <li class="dev">Bash</li>
+            <li class="dev">Ruby on Rails</li>
+            <li class="dev">AI agents &amp; Cursor skills</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="trace" class="reveal">
+        <h2><span aria-hidden="true">#</span> Career trace</h2>
+        <p class="traceid">
+          trace_id: <b>career-2005-now</b> · 9 spans · status: <b class="ok">OK</b>
+        </p>
+        <div class="trace">
+          <div class="row axis" aria-hidden="true">
+            <div></div>
+            <div class="track">
+              <span style="--s: 2005">2005</span>
+              <span style="--s: 2010">2010</span>
+              <span style="--s: 2015">2015</span>
+              <span style="--s: 2020">2020</span>
+              <span style="--s: 2025">2025</span>
+            </div>
+          </div>
+          <div class="row food">
+            <div>
+              <b>Chef</b> <time>2005 – 2015</time>
+              <small>Noma (Copenhagen), Castagna, The Catbird Seat, Ned Ludd (Head of Baking &amp; Pastry), head chef in Milwaukee &amp; Chicago</small>
+            </div>
+            <div class="track"><i style="--s: 2005; --e: 2015"></i></div>
+          </div>
+          <div class="row learn">
+            <div>
+              <b>Western Culinary Institute</b> <time>2006 – 2007</time>
+              <small>Culinary Arts</small>
+            </div>
+            <div class="track"><i style="--s: 2006; --e: 2007"></i></div>
+          </div>
+          <div class="row food">
+            <div>
+              <b>Stumptown Coffee Roasters</b> <time>2015 – 2019</time>
+              <small>Coffee Educator &amp; Account Manager: ran nationwide retail training</small>
+            </div>
+            <div class="track"><i style="--s: 2015; --e: 2019"></i></div>
+          </div>
+          <div class="row words">
+            <div>
+              <b>Aleatory Books</b> <time>2017 – 2020</time>
+              <small>Owner: online new, used &amp; rare bookstore; grew a following of 5,000</small>
+            </div>
+            <div class="track"><i style="--s: 2017; --e: 2020"></i></div>
+          </div>
+          <div class="row words">
+            <div>
+              <b>The New Centre for Research &amp; Practice</b> <time>2018 – 2019</time>
+              <small>Chief Editor</small>
+            </div>
+            <div class="track"><i style="--s: 2018; --e: 2019"></i></div>
+          </div>
+          <div class="row learn">
+            <div>
+              <b>Epicodus</b> <time>2019 – 2020</time>
+              <small>Certificate in Web &amp; Mobile Development (Ruby on Rails, React)</small>
+            </div>
+            <div class="track"><i style="--s: 2019.8; --e: 2020.4"></i></div>
+          </div>
+          <div class="row tech">
+            <div>
+              <b>Tuft &amp; Needle</b> <time>Mar – May 2020</time>
+              <small>Quality Engineering Intern</small>
+            </div>
+            <div class="track"><i style="--s: 2020.2; --e: 2020.4"></i></div>
+          </div>
+          <div class="row tech">
+            <div>
+              <b>Tilig</b> <time>Mar 2020 – Jan 2021</time>
+              <small>Software &amp; Infrastructure Engineer</small>
+            </div>
+            <div class="track"><i style="--s: 2020.2; --e: 2021.05"></i></div>
+          </div>
+          <div class="row tech live">
+            <div>
+              <b>Nike</b> <time>Mar 2021 – Present</time>
+              <small>Site Reliability Engineer → SRE I → SRE II</small>
+            </div>
+            <div class="track"><i style="--s: 2021.2; --e: 2026.9"></i></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="community" class="reveal">
+        <h2><span aria-hidden="true">#</span> Community</h2>
+        <ul class="plain">
+          <li>Started an internal SRE meetup and community of practice</li>
+          <li>
+            Talks on SLOs &amp; error budgets, event readiness, and AI-assisted observability
+          </li>
+          <li>
+            Neurodiversity Career Pillar Lead on the Nike Disability Network
+            leadership team; helped relaunch the network
+          </li>
+          <li>
+            SRE intern hiring panel. Nike Engineering Forum volunteer. Attended
+            SREcon25.
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="reveal">
+        <h2><span aria-hidden="true">#</span> Contact</h2>
+        <p class="cta">
+          <a class="btn primary" href="mailto:me@mikeywells.dev">me@mikeywells.dev</a>
+          <a class="btn" href="https://linkedin.com/in/michael-wayne-wells">LinkedIn</a>
+          <a class="btn" href="https://github.com/Michael-Wayne-Wells">GitHub</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>© 2026 Mikey Wells <span aria-hidden="true">· exit 0</span></footer>
+
+    <script>
+      // closed <details> don't print, so open them all first
+      addEventListener("beforeprint", () =>
+        document.querySelectorAll("details").forEach((d) => (d.open = true))
+      );
+    </script>
+  </body>
+</html>

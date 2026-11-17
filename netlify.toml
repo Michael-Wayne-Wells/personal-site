@@ -1,0 +1,13 @@
+# Plain HTML/CSS: nothing to build. Overrides the old Gatsby settings in the Netlify UI.
+[build]
+  publish = "site"
+  command = "echo 'static site, no build step'"
+
+# Old Gatsby routes that are now sections of the single page
+[[redirects]]
+  from = "/about"
+  to = "/#about"
+
+[[redirects]]
+  from = "/contact"
+  to = "/#contact"
